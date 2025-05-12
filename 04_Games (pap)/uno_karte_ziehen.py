@@ -7,7 +7,12 @@ while len (kartenstapel) != 0 :
     if aktuelleKarte == "+4" :
         print("+4 kann gespielt werden")
         break
-if len(kartenstapel) != 0 :
+
+
+if len(kartenstapel) == 0 :
     print("Kartenstapel ist leer")
+
+else:
+     print("Kartenstapel ist nicht leer")
 
 

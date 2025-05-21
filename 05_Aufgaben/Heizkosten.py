@@ -1,0 +1,1 @@
+berechne_kosten(energie_kwh, tarif)
